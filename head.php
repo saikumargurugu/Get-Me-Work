@@ -30,13 +30,16 @@
 .navbar{
 	width:100%;
 }
-Select {
+.Select {
     position: absolute;
     z-index: 10;
     width: 168px;
     height: 34px;
     border: 1px solid #000;
 }
+.tex{
+	color:black; 
+	  }
 .pro{
 	padding:10px;
 }
