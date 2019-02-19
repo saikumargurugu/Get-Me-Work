@@ -26,18 +26,24 @@ background-color:transparent !important;
 </style>
 
 <div class="container">
+<table>
+<col width="7300">
 <div class="login-box">
 <div class="row bg">
-		<div class="col-md-4 col-xs-4">
+	<tr>	<td><div class="col-md-4 col-xs-4">
 		 <a href="autopopup.php"><img src="autp pic.jpg" class="img-responsive imgresize img-thumbnail">
-		 <center><b>AUTO SIGN UP</b></center> </a><br><br><br><br>
+		 <center><b class="tex">AUTO SIGN UP</b></center> </a><br><br><br><br>
 		</div>
 		
+
 		</div>
 <div class="row">
+
 <div class="col-md-6 login-left">
+
 <h2> Login Here </h2>
 <form action="vaidation.php" method="post">
+
 <div class="form-group">
 <label>Phone Number</label>
 <input type="number" name="phone" class="form-control" required>
@@ -47,9 +53,12 @@ background-color:transparent !important;
 <input type="password" name="pass" class="form-control" required>
 </div>
 <button type="submit" class="btn btn-primary"> Login </button>
+
 </form>
+
 </div>
 <div class="col-md-6 login-right">
+
 <h2> Register Here </h2>
 <form action="registration.php" method="post">
 <div class="form-group">
@@ -99,10 +108,13 @@ background-color:transparent !important;
 <div class="form-group">
 <button type="submit" class="btn btn-primary"> Registration </button>
 </form>
+</td>
 </div>
 
 </div>
-
+</tr>
 </div>
+</div>
+</table>
 </div>
 <?php include "foot.php";?>
